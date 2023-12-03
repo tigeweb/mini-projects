@@ -1,0 +1,46 @@
+body {
+  background-color: #e0e0e0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-stopwatch {
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1.6px rgba(0, 0, 0, 0.05),
+    4.5px 4.5px 3.6px rgba(0, 0, 0, 0.038),
+    7.9px 7.9px 6.3px rgba(0, 0, 0, 0.033),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.029),
+    19.3px 19.3px 15.5px rgba(0, 0, 0, 0.025),
+    30.1px 30.1px 24.1px rgba(0, 0, 0, 0.021),
+    50px 50px 40px rgba(0, 0, 0, 0.017), 100px 100px 80px rgba(0, 0, 0, 0.012);
+}
+
+.timer {
+  text-align: center;
+  font-size: 42px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.btn {
+  background: none;
+  border: 2px solid black;
+  cursor: pointer;
+  line-height: 1.5;
+  padding: 0.5em 1em;
+  font: 700 1.2rem;
+  letter-spacing: 0.05rem;
+}
