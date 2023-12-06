@@ -1,0 +1,85 @@
+body {
+  background: rgb(41, 45, 136);
+  background: linear-gradient(
+    137deg,
+    rgba(41, 45, 136, 1) 0%,
+    rgba(0, 3, 74, 1) 54%
+  );
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card-birth {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  box-shadow: 8px 6px 0px rgba(182, 182, 182, 0.07),
+    8px 6px 30px rgba(182, 182, 182, 0.07);
+}
+
+.container .card-birth input {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+::-webkit-calendar-picker-indicator {
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+::-webkit-calendar-picker-indicator:hover {
+  box-shadow: -1px 1px 8px #00034a, 1px -1px 8px #ffffff;
+}
+
+.container .card-birth button {
+  padding: 13px 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.container .card-birth button:hover {
+  color: #ffffff;
+  background-color: #00034a;
+}
+
+.container .display-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .display-date .card {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  font-size: 18px;
+  width: 50px;
+  box-shadow: 8px 6px 0px rgba(182, 182, 182, 0.07),
+    8px 6px 30px rgba(182, 182, 182, 0.07);
+}
